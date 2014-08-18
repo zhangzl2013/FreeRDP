@@ -345,6 +345,8 @@ static void drive_process_irp_set_information(DRIVE_DEVICE* drive, IRP* irp)
 	{
 
 
+
+
 	}
 
 	Stream_Write_UINT32(irp->output, Length);
